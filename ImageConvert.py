@@ -12,7 +12,7 @@ from ctypes import *
 # 32bit
 #ImageConvertdll = OleDLL("../../../Runtime/Win32/ImageConvert.dll")
 # 64bit
-ImageConvertdll = OleDLL("../../../Runtime/x64/ImageConvert.dll")
+ImageConvertdll = OleDLL("./dll/x64//ImageConvert.dll")
 
 #定义枚举类型
 #define enum type

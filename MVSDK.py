@@ -17,7 +17,7 @@ def enum(**enums):
 # 32bit
 #MVSDKdll = OleDLL("../../../Runtime/Win32/MVSDKmd.dll")
 # 64bit
-MVSDKdll = OleDLL("../../../Runtime/x64/MVSDKmd.dll")
+MVSDKdll = OleDLL("./dll/x64/MVSDKmd.dll")
 
 #SDK.h => define 宏定义
 MAX_PARAM_CNT        = 1000
